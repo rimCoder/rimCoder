@@ -67,9 +67,9 @@ A **Full-Stack Engineer** with a concentration in **ML/AI**, passionate about bu
 
 ### GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rimCoder&show_icons=true&theme=radical&rank_icon=github&count_private=true" alt="My GitHub Stats" />
-</p>
+<!-- START GITHUB STATS -->
+<!-- SVG will be injected here by workflow -->
+<!-- END GITHUB STATS -->
 
 ---
 

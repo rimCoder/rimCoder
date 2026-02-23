@@ -15,9 +15,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Profile folder existence
+        run: mkdir -p profile
+
       - name: Generate stats card from Vercel instance
         run: |
-          curl -s \
+          curl -L -s \
           "https://github-readme-stats-kappa-seven-26.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=radical&rank_icon=github&count_private=true" \
           -o profile/stats.svg
 

@@ -68,8 +68,12 @@ A **Full-Stack Engineer** with a concentration in **ML/AI**, passionate about bu
 ### GitHub Stats
 
 <!-- START GITHUB STATS -->
+The deployment is currently unavailable
+
+DEPLOYMENT_PAUSED
+
+iad1::5jswf-1771805395000-699c38d0e608
 <!-- SVG will be injected here by workflow -->
-<!-- END GITHUB STATS -->
 
 ---
 

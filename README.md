@@ -67,33 +67,7 @@ A **Full-Stack Engineer** with a concentration in **ML/AI**, passionate about bu
 
 ### GitHub Stats
 
-<!-- START GITHUB STATS -->
-The deployment is currently unavailable
-
-DEPLOYMENT_PAUSED
-
-cle1::l49v2-1771861369057-ede5d8d129bd
-The deployment is currently unavailable
-
-DEPLOYMENT_PAUSED
-
-cle1::v7rh7-1771813966161-153bcfe8c85f
-The deployment is currently unavailable
-
-DEPLOYMENT_PAUSED
-
-iad1::tbzgn-1771806484031-f39f97481f17
-The deployment is currently unavailable
-
-DEPLOYMENT_PAUSED
-
-iad1::plrph-1771806302673-5eb0ada2f9c0
-The deployment is currently unavailable
-
-DEPLOYMENT_PAUSED
-
-iad1::5jswf-1771805395000-699c38d0e608
-<!-- SVG will be injected here by workflow -->
+![Stats](./profile/stats.svg)
 
 ---
 

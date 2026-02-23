@@ -21,7 +21,7 @@ jobs:
       - name: Generate stats card from Vercel instance
         run: |
           curl -L -s \
-          "https://github-readme-stats-kappa-seven-26.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=dark&hide=prs,issues&commits_year=2026&count_private=true" \
+          "https://github-readme-stats-kappa-seven-26.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide=prs,issues&commits_year=2026&count_private=true" \
           -o profile/stats.svg
 
       - name: Commit cards

@@ -2,7 +2,7 @@ name: Update GitHub Stats Inline SVG
 
 on:
   schedule:
-    - cron: '0 0 * * *' #Daily update
+    - cron: '0 0 * * *' 
   workflow_dispatch:
 
 permissions:
@@ -29,11 +29,17 @@ jobs:
           awk '/<!-- START GITHUB STATS -->/{print;system("cat stats.svg");next} /<!-- END GITHUB STATS -->/{next}1' README.md > README.tmp
           mv README.tmp README.md
 
-      - name: Commit and push changes
+      - name: Commit changes before pulling remote
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git pull origin main --rebase
           git add README.md
           git commit -m "Update inline GitHub Stats" || echo "No changes to commit"
-          git push
+
+      - name: Pull latest changes from remote
+        run: |
+          git pull origin main --rebase
+
+      - name: Push changes
+        run: |
+          git push origin main

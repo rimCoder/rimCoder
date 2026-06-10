@@ -72,6 +72,6 @@ Tools & Design:
 
 ### Let's Connect
 
-I'm open to collaboration, conversations about data-driven systems, and really anything fun.
+I'm open to collaboration, conversations about tech, and really anything fun.
 
-📬 **[omr.alflata@gmail.com](mailto:omr.alflata@gmail.com)** · 🌐 **[alfallatah.dev](https://alfallatah.dev)**
+📬 **[omr.alflata@gmail.com](mailto:omr.alflata@gmail.com)** · 🌐 **[alfallatah](#)**
